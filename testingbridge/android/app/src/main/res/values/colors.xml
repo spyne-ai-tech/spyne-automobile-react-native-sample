@@ -1,0 +1,8 @@
+<resources>
+
+    <!-- Accent used by the JS form (Generate Random VIN link, Start Shoot button). -->
+    <color name="accent">#007AFF</color>
+    <!-- Same accent at 40% alpha, for text selection highlight. -->
+    <color name="accent_selection">#66007AFF</color>
+
+</resources>

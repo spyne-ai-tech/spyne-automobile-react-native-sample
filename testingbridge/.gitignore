@@ -1,0 +1,108 @@
+# ==========================
+# OS
+# ==========================
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+
+# ==========================
+# Android / Gradle
+# ==========================
+build/
+.gradle/
+.kotlin/
+.cxx/
+local.properties
+*.hprof
+
+# ==========================
+# IntelliJ / Android Studio
+# ==========================
+.idea/
+*.iml
+*.iws
+.vscode/*
+!.vscode/extensions.json
+*.swp
+*~
+
+# ==========================
+# Xcode / iOS
+# ==========================
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.xccheckout
+*.moved-aside
+DerivedData/
+*.hmap
+*.ipa
+*.xcuserstate
+ios/.xcode.env.local
+
+# Swift Package Manager
+.swiftpm/
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+
+# ==========================
+# Node.js
+# ==========================
+node_modules/
+.npm/
+.npm-cache/
+.pnpm-store/
+.yarn/cache/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ==========================
+# React Native / Metro
+# ==========================
+.watchman-cookie-*
+.metro-health-check*
+*.jsbundle
+android/app/src/main/assets/index.android.bundle
+
+# ==========================
+# Ruby / CocoaPods
+# ==========================
+/ios/Pods/
+/vendor/bundle/
+
+# ==========================
+# Fastlane
+# ==========================
+**/fastlane/report.xml
+**/fastlane/Preview.html
+**/fastlane/screenshots
+**/fastlane/test_output
+
+# ==========================
+# Environment / Secrets
+# ==========================
+.env
+.env.*
+!.env.example
+*.jks
+*.keystore
+!debug.keystore
+*.p8
+*.p12
+*.mobileprovision
+
+# ==========================
+# Logs / Coverage / Build Artifacts
+# ==========================
+*.log
+dist/
+coverage/

@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!--
+      Base application theme.
+
+      Pinned to the Light variant instead of DayNight: the JS UI draws its own
+      light surfaces, so a dark theme only flipped native text, hints, cursors
+      and selection handles to white on those light backgrounds. forceDarkAllowed
+      keeps OEM auto-dark from re-introducing the same problem.
+    -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:editTextBackground">@drawable/rn_edit_text_material</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+        <!-- Cursor, selection handles and highlight, matching the app accent. -->
+        <item name="colorAccent">@color/accent</item>
+        <item name="colorControlActivated">@color/accent</item>
+        <item name="android:textColorHighlight">@color/accent_selection</item>
+    </style>
+
+</resources>
